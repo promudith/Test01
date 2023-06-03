@@ -13,6 +13,27 @@
         android:theme="@style/Theme.Test01"
         tools:targetApi="31">
         <activity
+            android:name=".PastRecordeGarage"
+            android:exported="false" />
+        <activity
+            android:name=".TaskGarage"
+            android:exported="false" />
+        <activity
+            android:name=".RequestsGarage"
+            android:exported="false" />
+        <activity
+            android:name=".InformationFormGarage"
+            android:exported="false" />
+        <activity
+            android:name=".PastRecordsGarage"
+            android:exported="false" />
+        <activity
+            android:name=".RequestFormGarage"
+            android:exported="false" />
+        <activity
+            android:name=".RequestFromUser"
+            android:exported="false" />
+        <activity
             android:name=".PasswordResetGarage"
             android:exported="false" />
         <activity
