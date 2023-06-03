@@ -22,4 +22,15 @@
         android:name="com.firebase.test01.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_emergency"
+        android:name="com.firebase.test01.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_emergency" />
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.firebase.test01.ui.notifications.NotificationsFragment"
+        android:label="@string/title_history"
+        tools:layout="@layout/fragment_history" />
 </navigation>
