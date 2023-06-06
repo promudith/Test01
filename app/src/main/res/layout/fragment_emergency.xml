@@ -9,13 +9,141 @@
     tools:context=".ui.emergency.EmergencyFragment">
 
     <TextView
-        android:id="@+id/message"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="EmergencyFragment"
+        android:id="@+id/textView2"
+        android:layout_width="205dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="173dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="674dp"
+        android:text="@string/title_police"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="631dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="119"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="118"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText"
+        app:layout_constraintVertical_bias="0.029" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="110"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText"
+        app:layout_constraintVertical_bias="0.21" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="1969"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText"
+        app:layout_constraintVertical_bias="0.445" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="118"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText"
+        app:layout_constraintVertical_bias="0.635" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="100dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="0777123456"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText"
+        app:layout_constraintVertical_bias="0.833" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_ambulance"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_government"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.537"
+        tools:layout_editor_absoluteX="24dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_express"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_emergency"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="698dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

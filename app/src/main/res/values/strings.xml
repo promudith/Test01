@@ -9,4 +9,9 @@
     <string name="title_notifications">Contact</string>
     <string name="title_call">Call</string>
     <string name="title_history">History</string>
+    <string name="title_police">Police Emeregency Contacts</string>
+    <string name="title_ambulance">Ambulance / Fire and rescue</string>
+    <string name="title_government">Government Information Center</string>
+    <string name="title_express">Expressway Emergency Call</string>
+    <string name="title_emergency">Emergency Contact</string>
 </resources>
