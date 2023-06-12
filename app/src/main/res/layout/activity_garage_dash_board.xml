@@ -30,9 +30,8 @@
         android:layout_marginTop="36dp"
         android:text="Sunil Mortors"
         android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="16sp"
         android:textStyle="bold"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,11 +61,11 @@
         android:id="@+id/btnTask"
         android:layout_width="123dp"
         android:layout_height="143dp"
-        android:layout_marginStart="64dp"
+        android:layout_marginStart="52dp"
         android:background="@android:color/transparent"
         app:layout_constraintLeft_toRightOf="@+id/btnGarageRequests"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="598dp" />
+        tools:layout_editor_absoluteY="606dp" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnPastRecords"
