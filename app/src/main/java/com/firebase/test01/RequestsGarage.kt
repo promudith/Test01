@@ -10,8 +10,8 @@ class RequestsGarage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_requests_garage)
 
-        val backToGarageReq = findViewById<Button>(R.id.btnBackReq)
-        backToGarageReq.setOnClickListener {
+        val backToGarage = findViewById<Button>(R.id.btnBackGarge)
+        backToGarage.setOnClickListener {
             val intent = Intent(this, GarageDashBoard::class.java)
             startActivity(intent)
         }

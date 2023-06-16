@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "487915819928",
+    "project_id": "garage-ea9f1",
+    "storage_bucket": "garage-ea9f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487915819928:android:3cdcd158338c790bdf11ed",
+        "android_client_info": {
+          "package_name": "com.firebase.test01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487915819928-v3c2e2ida9h8022ag0i165414vnm7okc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLjFfs4_gMVineEruQtLH0o2bWLBrTRmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487915819928-v3c2e2ida9h8022ag0i165414vnm7okc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
